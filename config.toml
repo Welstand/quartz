@@ -1,4 +1,4 @@
-baseURL = "https://welstand.github.io/quartz/"
+baseURL = "https://github.com/Welstand/quartz/"
 languageCode = "en-us"
 googleAnalytics = "G-XYFD95KB4J"
 pygmentsUseClasses = true
