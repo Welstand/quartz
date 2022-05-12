@@ -11,8 +11,8 @@ ignoreFiles = [
 summaryLength = 20
 paginate = 10
 enableGitInfo = true
-- name: Deploy  
-  uses: peaceiris/actions-gh-pages@v3  
+name: Deploy  
+uses: peaceiris/actions-gh-pages@v3  
   with:  
 	github_token: ${{ secrets.GITHUB_TOKEN }} # this can stay as is, GitHub fills this in for us!
 	publish_dir: ./public  
